@@ -1,11 +1,11 @@
 ### @hideIteration false 
-### @flyoutOnly 1
+### @flyoutOnly 0
 ### @explicitHints 1
 
 
 # Super linia z haszem 
 ## Step 1
-Super ekstra lekcja pokazowa
+Zobacz jaka super lekcja pokazowa
 
 ```template
 let y = 0
@@ -360,11 +360,13 @@ player.onChat("zbuduj most", function () {
 ```
 
 
-# Super linia z haszem 
-## Step 2
-A teraz własny kod
 
-```ghost
+## Step 2
+A teraz zróbmy własny kod. spróbuj porozmawiać z Agentem
+
+
+### ~ tutorialhint
+```blocks
 player.onChat("Hej", function () {
     player.say("A dzień dobry, dzień dobry :)")
 })
